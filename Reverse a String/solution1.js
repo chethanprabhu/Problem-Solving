@@ -9,5 +9,7 @@ for(let i = stringArr.length - 1, j = 0; i >= 0 ; i--, j++) {
     reversedArr[j] = stringArr[i];
 }
 
-console.log(reversedArr.join(""));
+reversedArr = reversedArr.join("");
+
+console.log(reversedArr);
 
