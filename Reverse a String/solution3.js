@@ -3,8 +3,8 @@ let string = "Hey, how are you?"
 
 let reversedArr = []; 
 
-for(let i = string.length - 1; i >= 0 ; i--) {
-    reversedArr.push(string[i]);
+for(let i = stringArr.length - 1; i >= 0 ; i--) {
+    reversedArr.push(stringArr[i]);
 }
 
 console.log(reversedArr.join(""));
